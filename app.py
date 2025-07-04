@@ -19,7 +19,7 @@ st.markdown("""
 <style>
 /* Общий стиль сайдбара */
 section[data-testid="stSidebar"] {
-    background-color: #02b871 !important;
+    background-color: #00B2CA !important;
     color: white !important;
     padding-top: 10px !important;
 }
@@ -180,7 +180,7 @@ def align_features(df, feature_names):
     return df[feature_names]
 
 # Интерфейс
-icon = "bcc_icon.png"
+icon = "nku_icon.png"
 
 left_co, cent_co, last_co = st.columns([0.35, 0.3, 0.35])
 with cent_co:
